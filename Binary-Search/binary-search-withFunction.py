@@ -2,7 +2,7 @@ list = [2, 3, 9, 10, 18, 34, 41, 49, 50, 80, 100, 120]
 searchKey = 80
 
 
-def search(int: list, searchKey) -> int :
+def search(list: int, searchKey) -> int :
     lowerB = 0
     upperB = len(list) - 1
 
